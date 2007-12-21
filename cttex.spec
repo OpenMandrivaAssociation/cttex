@@ -10,6 +10,7 @@ License:	Distributable
 Group:		System/Internationalization
 Source0:	%{name}_%{version}.tar.bz2
 URL:		http://linux.thai.net/pub/thailinux/cvs/software/cttex/
+BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 Requires:	locales-th
 Patch0:		ctte-121-cflags.patch
 
