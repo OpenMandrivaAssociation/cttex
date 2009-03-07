@@ -1,6 +1,6 @@
 %define	name	cttex
 %define	version	1.23
-%define	release	%mkrel 6
+%define	release	%mkrel 7
 
 Summary:	Cttex, Thai word separator program
 Name:		%{name}
