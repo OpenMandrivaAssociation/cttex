@@ -1,0 +1,23 @@
+--- cttex-1.23/Makefile~	2009-03-07 02:10:19.000000000 +0100
++++ cttex-1.23/Makefile	2009-03-07 02:12:32.000000000 +0100
+@@ -1,16 +1,16 @@
+ all: cttex dict2state
+ 
+ cttex: cttex.c map.o
+-	gcc -O2 -o cttex cttex.c map.o
++	gcc $(RPM_OPT_FLAGS) -o cttex cttex.c map.o
+ 
+ map.o: map.c
+-	gcc -O2 -c map.c
++	gcc $(RPM_OPT_FLAGS) -c map.c
+ 
+ dictsort: dictsort.c
+-	gcc -O2 -o dictsort dictsort.c
++	gcc $(RPM_OPT_FLAGS) -o dictsort dictsort.c
+ 
+ dict2state: dict2state.c
+-	gcc -O2 -o dict2state dict2state.c
++	gcc $(RPM_OPT_FLAGS) -o dict2state dict2state.c
+ 
+ map.c: tdict.txt dict2state
+ 	./dict2state
