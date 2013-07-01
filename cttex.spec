@@ -1,4 +1,4 @@
-Summary:	Cttex, Thai word separator program
+Summary:	, Thai word separator program
 Name:		cttex
 Version:	1.23
 Release:	12
