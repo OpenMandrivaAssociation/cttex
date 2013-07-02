@@ -1,7 +1,7 @@
-Summary:	, Thai word separator program
+Summary:	Thai word separator program
 Name:		cttex
 Version:	1.23
-Release:	12
+Release:	13
 License:	Distributable
 Group:		System/Internationalization
 Url:		http://linux.thai.net/pub/thailinux/cvs/software/cttex/
