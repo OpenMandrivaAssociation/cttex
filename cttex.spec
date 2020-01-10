@@ -17,7 +17,7 @@ be used as a simple word-sep filter.
 
 %prep
 %setup -q
-%apply_patches
+%autopatch -p1
 
 %build
 PATH=$PATH:. %make
