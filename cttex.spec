@@ -4,7 +4,7 @@ Version:	1.23
 Release:	24
 License:	Distributable
 Group:		System/Internationalization
-Url:		http://linux.thai.net/pub/thailinux/cvs/software/cttex/
+Url:		https://linux.thai.net/pub/thailinux/cvs/software/cttex/
 Source0:	%{name}_%{version}.tar.bz2
 Patch0:		ctte-121-cflags.patch
 Requires:	locales-th
